@@ -1,0 +1,110 @@
+/*====================================TEXT FORMATS*/
+.orange-text-bold{
+font-size:20px;
+font-weight:bolder;
+font-family:"Sans-serif", Arial;
+color: #935b08;
+}
+
+.orange-text{
+font-size:15px;
+font-family:"Sans-serif", Arial;
+color: #935b08;
+}
+
+div.relative20{
+position:relative;
+left:20px;
+}
+
+div.relative200{
+position: relative;
+left: 200px;
+}
+
+/*====================================CONTAINERS*/
+.contain{
+width:100%;
+overflow:hidden; /*no scroll*/
+}
+
+.header{
+position:fixed;
+top:0px;
+width:100%;
+}
+
+.footer{
+position:fixed;
+bottom:0px;
+width:100%;
+}
+
+.dark-orange{
+padding:20px; /*height of container*/
+background: #e09144;
+}
+
+.light-orange{
+padding:5px;
+background: #e0ac73;
+}
+
+.dark-brown{
+padding:20px;
+background:#4d4335;
+}
+
+.light-brown{
+padding:5px;
+background:#8d7f68
+}
+
+.relative25{
+position:relative;
+left:25px;
+}
+/*====================================END CONTAINERS*/
+/*====================================GAPS*/
+.gap{
+width:100%;
+}
+
+.gap10{
+height:10px;
+}
+
+.gap100{
+height:100px;
+}
+
+.gap400{
+height:400px;
+}
+/*====================================END GAPS*/
+/*====================================BUTTONS*/
+.bttn{
+background-color: #ffa834;
+border:none;
+color:white;
+padding:8px 15px;
+text-align:center;
+font-size:16px;
+cursor:default;
+display:inline-block;
+cursor:pointer;
+
+}
+
+.bttn-radial{
+border-radius:8px;
+}
+/*====================================END BUTTONS*/
+.sqrshadow{
+box-shadow:10px 10px 20px #888888;
+}
+
+.pngshadow{
+-webkit-filter: drop-shadow(5px 5px 5px #222); 
+filter: drop-shadow(5px 5px 5px #222);
+}
