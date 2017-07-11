@@ -116,7 +116,6 @@
 	<div class="footer">
 	<div class="contain light-brown"></div>
 	<div class="contain dark-brown" style="font-size:12;">
-	<font color="#968881">Developed by Synesth Corporation</font>
 	<font color="#968881" style="position: relative; left:70%;">&#9400; Copyright 2017. All rights reserved.</font>
 	<img src="uprrp-logo.png" style="width:150px;height:30px; position: relative; left:15%; -webkit-filter: drop-shadow(5px 5px 5px #222); filter: drop-shadow(5px 5px 5px #222);">
 	</div>
