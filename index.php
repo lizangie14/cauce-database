@@ -90,6 +90,21 @@
 	</tr>
 
 	<?php
+		
+	/* CONNECT TO DATABASE */
+	$servername = "localhost";
+	$username = "";
+	$password = "";
+
+	// create connection
+	$conn = new mysqli($servername, $username, $password);
+
+	// check connection
+	if ($conn->connect_error) 
+	{
+    	die("Connection failed: " . $conn->connect_error);
+	} else echo "Connected successfully";
+		
 	$arch = file("customer_contact_fake.csv");
 	foreach($arch as $i)
 	{
